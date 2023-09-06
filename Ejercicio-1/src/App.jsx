@@ -6,9 +6,9 @@ function App() {
   const subtitutlo = "Estas muy muy hermosa!!!!";
 
   return (
-   <div>
-    <h1>{titulo}</h1>
-    <h2>{subtitutlo}</h2>
+   <div >
+    <h1 className='fondo'>{titulo}</h1>
+    <h2 className='fondo'>{subtitutlo}</h2>
    </div>
   )
 }

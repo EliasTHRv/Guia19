@@ -5,6 +5,23 @@
   text-align: center;
 }
 
+.flex{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: rgb(188, 139, 233);
+}
+
+p{
+  width: 40%;
+  position: relative;
+  left: 380px;
+}
+
+.pP{
+  display: flex;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,10 +33,6 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-.fondo{
-  background-color: rgb(0, 196, 170);
 }
 
 @keyframes logo-spin {
